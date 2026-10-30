@@ -1,0 +1,120 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+/* Header */
+header {
+    background-color: #4b0082;
+    color: white;
+    padding: 25px;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+/* Navigation */
+nav {
+    background-color: white;
+    padding: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #4b0082;
+    font-weight: bold;
+    margin: 15px;
+}
+
+/* Courses Section */
+#courses {
+    background-color: #dce5fa;
+    padding: 25px;
+}
+
+#courses h2 {
+    color: #4b0082;
+    margin-bottom: 25px;
+}
+
+/* Course Container */
+.course-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+/* Course Cards */
+.course-card {
+    background-color: white;
+    width: 220px;
+    padding: 12px;
+    box-shadow: 0 2px 8px #ccc;
+}
+
+.course-card img {
+    width: 100%;
+    height: 110px;
+    object-fit: cover;
+}
+
+.course-card h3 {
+    color: #4b0082;
+    margin: 10px 0;
+}
+
+.course-card p {
+    font-size: 13px;
+    margin: 10px 0;
+}
+
+/* Enroll Button */
+button {
+    background-color: #4b0082;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800080;
+}
+
+/* Contact Section */
+#contact {
+    background-color: white;
+    padding: 20px;
+}
+
+#contact h2 {
+    color: #4b0082;
+    margin-bottom: 10px;
+}
+
+/* Footer */
+footer {
+    background-color: #4b0082;
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    font-size: 13px;
+}
+
+/* Responsive Design */
+@media (max-width: 600px) {
+    .course-container {
+        flex-direction: column;
+        align-items: center;
+    }
+}
